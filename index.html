@@ -1,0 +1,124 @@
+<!-- 
+Denzyl Chua De Han
+P1902244
+DIT/FT/1B/05
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Data Science (Python)</title>
+  <link href="css/index.css" rel="stylesheet" />
+  <link rel="icon" href="images/me.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">                                    <!-- Creating the bootstrap container -->    
+
+    <div class="row">
+      <p id="title" class="mx-auto">Programming for Data Science (PDS)</p>
+    </div>
+
+    <div class="row">
+      <p id="sub-title" class="mx-auto">About The Project</p>
+    </div>
+
+    <div class="row">
+      <p class="mx-auto text">
+        With the use of datasets from data.gov.sg I have created 6 graphs with insightful analysis. 
+        This was done by using jupyter notebook and python with libraries such as pandas, matplotlib, 
+        numpy and seaborn. Through this project, I have gain the fundamental skills to code applications 
+        to retrieve, clean and visualize data using the Python programming language. As well as, the 
+        ability to apply Python packages to describe data, explore data and to create visualizations to 
+        gain useful insights from it.
+      </p>
+    </div>
+
+    <hr class="line"/>
+
+    <div class="row">
+      <p id="sub-title" class="mx-auto">What is the relationship between the Government Health Expenditure and the number of Medical Professionals?</p>
+    </div>
+    <div class="row">
+      <img src="img/graph1.png" alt="Medicial Professionals in Singapore between 1990 to 2019" class="graph"></div>
+      <p class="mx-auto text">
+        With the dataset of “Doctors per 10000 Total Population” I have created a line graph to show the 
+        Medical Professionals in Singapore between 1990 to 2019. Through this graph I can tell that there 
+        has been a general steady increase of Medical Professionals from 1990 with 48 per 10000 total 
+        population to 2019 with 104 per total population. However, between 2008 and 2009, there was a sharp 
+        increase of 15 medical professionals per 10000 total population.
+      </p>
+    </div>
+    <div class="row">
+      <img src="img/graph2.png" alt="Medicial Professionals in Singapore between 1990 to 2019" class="graph"></div>
+      <p class="mx-auto text">
+        With the dataset of “Government Health Expenditure” I have created a bar graph to display the operating 
+        expenditure and development expenditure in healthcare. With the bar graph, I can tell that there has 
+        been a constant increase in Operating and Development Expenditure on Health from 2006 to 2017. With a 
+        significantly larger amount on the Operating Expenditure compared to the Development Expenditure. 
+        However, there was a decrease in Development Expenditure between 2009 and 2010 with a drop of S$226 million.
+      </p>
+    </div>
+    <div class="row">
+      <img src="img/graph3.png" alt="Medicial Professionals in Singapore between 1990 to 2019" class="graph"></div>
+      <p class="mx-auto text">
+        With the use of the 2 datasets above, I created a data frame for “Medical Professionals and Government 
+        Health Expenditure”. I plotted the data onto a scatterplot to allow a simple data analysis of the 
+        relationship between the Government Health Expenditure and Number of Medical Professionals. From this 
+        scatter graph, I can conclude that there is a positive relationship between Government Health Expenditure 
+        and the Number of Medical Professionals. This means that as the government spent more on Health Expenditure, 
+        the number of Medical Professionals in Singapore will increase.
+      </p>
+    </div>
+
+    <hr class="line"/>
+    
+    <div class="row">
+      <p id="sub-title" class="mx-auto">What is the relationship between the Government Health Expenditure and the number of Medical Professionals?</p>
+    </div>
+    <div class="row">
+      <img src="img/graph4.png" alt="Medicial Professionals in Singapore between 1990 to 2019" class="graph"></div>
+      <p class="mx-auto text">
+        With the dataset of “Rainfall Monthly Total“ I have created a bar graph with a colour map which allow the 
+        user to easily find out which has the most and least amount based on the darkness of the colour of the bar. 
+        From the bar graph, I can tell that the trend of rainfall is that it is consistent in the middle of the year 
+        and it increases during the end and at the start of the year. The highest months are December, November, and 
+        January. The lowest month is February.
+      </p>
+    </div>
+    <div class="row">
+      <img src="img/graph5.png" alt="Medicial Professionals in Singapore between 1990 to 2019" class="graph"></div>
+      <p class="mx-auto text">
+        With the dataset of “Dengue Outbreak Statistics” I have created a line chart with a vertical line to 
+        highlight the year with the most outbreak. Through this chart, I can tell that trend of dengue outbreak 
+        between 2007 to 2015 is not consistent. From 2007 to 2009 there was a gradual decrease in dengue outbreaks 
+        from 180.6 to 83.9 dengue cases per 100,000 population. From to 2009 to 2012 the dengue outbreak stayed 
+        stable. Between 2012 to 2013, there a huge increase in number of dengue outbreak from 82.7 to 404.9 dengue 
+        cases per 100,000 population. After 2013, the dengue outbreak has been gradually decreasing.
+      </p>
+    </div>
+    <div class="row">
+      <img src="img/graph6.png" alt="Medicial Professionals in Singapore between 1990 to 2019" class="graph"></div>
+      <p class="mx-auto text">
+        With the use of the 2 datasets above, I created a data frame for “Dengue Outbreak And Total amount of 
+        Rainfall”. With the data, I plotted a scatterplot to perform a simple data analysis of the relationship 
+        between the amount of rainfall yearly and the number of dengue outbreaks. From this scatter plot, I can 
+        tell that there is slim or no correlation between the amount of total amount of rainfall each year and 
+        the number of dengue outbreaks. This is because the best fit line is almost a horizontal line. Due to many 
+        points being in a straight line with multiple anomalies.
+      </p>
+    </div>
+    <div class="row">
+      <p id="sub-title" class="mx-auto">-End-</p>
+    </div>
+  </div>
+</body>
+
+</html>
