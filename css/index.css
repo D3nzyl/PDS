@@ -98,8 +98,8 @@ body {
     .graph {
         margin-right: auto;
         margin-left: auto;
-        max-width: auto;
-        height: 300px;
+        max-width: 90%;
+        height: 275px;
     }
 }
  
